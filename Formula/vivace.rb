@@ -5,23 +5,23 @@ class Vivace < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/svandragt/vivace/releases/download/v0.21.0/vivace-v0.21.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f8ad4edd19884a24b230f170def87e6120ddf76a24d7b2bf22da9ac28d9f570f"
+      url "https://github.com/svandragt/vivace/releases/download/v0.22.0/vivace-v0.22.0-aarch64-apple-darwin.tar.gz"
+      sha256 "8aad1177b89e8ae5838c6d91ae10747de5ee5f3d5e68712757fe3f23ab0861fb"
     end
     on_intel do
-      url "https://github.com/svandragt/vivace/releases/download/v0.21.0/vivace-v0.21.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ae594c17965a3591ea0b4878076d8a887016c3d110bfed9b33c28e8d7d228869"
+      url "https://github.com/svandragt/vivace/releases/download/v0.22.0/vivace-v0.22.0-x86_64-apple-darwin.tar.gz"
+      sha256 "2bd3a0465d268cb58700376945fe6b866505a2aa7344386587d10b5952c5415c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/svandragt/vivace/releases/download/v0.21.0/vivace-v0.21.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "6d6432c00fecfccf488d7ebcbe7e01a7d621ec1662118945bebe1d6ffe331124"
+      url "https://github.com/svandragt/vivace/releases/download/v0.22.0/vivace-v0.22.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "130e03f7c0fc4c5820c00b81ede58ec830b43b76195b6ba074d2abd578616696"
     end
     on_intel do
-      url "https://github.com/svandragt/vivace/releases/download/v0.21.0/vivace-v0.21.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "0dedd84ccbf61c68b80b5d5e8b7b00fcbe2a1caeca5c6e836fe37aff52013a39"
+      url "https://github.com/svandragt/vivace/releases/download/v0.22.0/vivace-v0.22.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "53b9244b321a9d6a8632f9fea17751bd91b5fe46a6413c9b3659769c2427f3a2"
     end
   end
 
